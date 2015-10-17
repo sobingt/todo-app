@@ -1,0 +1,27 @@
+{
+  "name": "Todo",
+  "version": "1.0.0",
+  "description": "Todo App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "todo",
+    "app"
+  ],
+  "author": "Sobin George Thomas <sobingt@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^0.8.5",
+    "body-parser": "^1.14.1",
+    "connect-mongo": "^0.8.2",
+    "cookie-parser": "^1.4.0",
+    "crypto": "0.0.3",
+    "express": "^4.13.3",
+    "express-session": "^1.11.3",
+    "mongoose": "^4.1.11",
+    "morgan": "^1.6.1",
+    "serve-favicon": "^2.3.0"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "authors": [
+    "Sobin George Thomas <sobingt@gmail.com>"
+  ],
+  "description": "todo app",
+  "main": "app.js",
+  "keywords": [
+    "todo",
+    "app"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "angular": "~1.4.7"
+  }
+}
