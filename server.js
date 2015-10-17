@@ -22,6 +22,7 @@ app.use(session({
   secret: config.sessionSecret,
   store: new MongoStore({ url: config.db, auto_reconnect: true })
 }));
+app.use(express.static(path.join(__dirname, 'public'), { maxAge: 31557600000 }));
 /**
  * Connect to MongoDB.
  */
